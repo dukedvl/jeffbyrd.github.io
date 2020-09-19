@@ -26,7 +26,7 @@ Technologies Used:
 - WPF
 ```
 
-### Core DLL / Uniting solutions towards common platforms
+### Core Library
 ```
 Purpose: 
 - Uniting tool sets / deprecating legacy toolsets
