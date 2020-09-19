@@ -1,5 +1,4 @@
 # Jeff Byrd
-## Software Developer
 
 
 ### Senior Software Developer
