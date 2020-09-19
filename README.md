@@ -2,7 +2,7 @@
 ## Software Developer
 
 
-### ** Senior Software Developer **
+### Senior Software Developer
 2017-Current
 ```
 - Spotlight/ Product Communication/Diagnostics
@@ -10,7 +10,7 @@
 - Core DLL / Uniting solutions towards common platforms
 ```
 
-### ** Automation Design Engineer **
+### Automation Design Engineer 
 2014-2017
 ```
 - SmartWare Automation Framework
