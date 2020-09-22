@@ -1,8 +1,11 @@
 # Jeff Byrd
 
 
-## Senior Software Developer
+## Sensus USA
+
+Senior Software Developer
 2017-Current
+Morrisville, NC
 
 ### Spotlight
 ```
@@ -35,7 +38,7 @@ Purpose:
 C#  .NET Framework 4.6
 ```
 
-## Automation Design Engineer 
+Automation Design Engineer 
 2014-2017
 
 ### SmartWare Automation
