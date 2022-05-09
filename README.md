@@ -1,10 +1,24 @@
 # Jeff Byrd
 
+## Charles Schwab
+Senior Software Developer
+2021-Current
+Austin, TX
+
+### StreetSmart Edge
+```
+Purpose:
+ - Highly technical financial trading software for advanced professional traders / retail investors
+ 
+Technologies Used:
+- WPF 
+- Web REST APIs (OAuth2 authorization)
+
 
 ## Sensus USA
 
 Senior Software Developer
-2017-Current
+2017-2021
 Morrisville, NC
 
 ### Spotlight
