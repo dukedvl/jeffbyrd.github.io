@@ -20,7 +20,7 @@ Technologies Used:
 - WPF/.NET, Atlassian suite for project tracking/management/ CI-CD
 - Postman for Web REST API prototyping
 - Web REST APIs (OAuth2 for token authorization)
-
+```
 ## Sensus USA
 
 Senior/Lead Software Developer, Eng Tools
