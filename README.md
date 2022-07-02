@@ -14,15 +14,15 @@ Purpose:
 Role:
 - Individual contributor, implementing features/maintenance
 - Handling production issues, deployments
-- Prioritizing field issues with Service dept
+- Prioritizing call-driving field issues with Service dept
+- Migrating legacy WCF services to cloud-hosted REST APIs
 
 Projects:
 - Nasdaq TotalView Enrollment
 
 Technologies Used:
 - WPF/.NET, Atlassian suite for project tracking/management/ CI-CD
-- Postman for Web REST API prototyping
-- Web REST APIs (OAuth2 for token authorization)
+- Postman for backend REST API prototyping
 ```
 ## Sensus USA
 
