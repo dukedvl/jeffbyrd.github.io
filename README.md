@@ -8,16 +8,22 @@ Austin, TX
 ### StreetSmart Edge
 ```
 Purpose:
- - Highly technical financial trading software for advanced professional traders / retail investors
- 
-Technologies Used:
-- WPF 
-- Web REST APIs (OAuth2 authorization)
+ - Highly technical analysis/purchasing solution for institutional traders and retail investors
 
+Role:
+- Individual contributor, implementing features/maintenance for user base > 100k, handling production issues, deployments
+
+Projects:
+- Nasdaq TotalView Enrollment
+
+Technologies Used:
+- WPF/.NET, Atlassian suite for project tracking/management/ CI-CD
+- Postman for Web REST API prototyping
+- Web REST APIs (OAuth2 for token authorization)
 
 ## Sensus USA
 
-Senior Software Developer
+Senior/Lead Software Developer, Eng Tools
 2017-2021
 Morrisville, NC
 
@@ -26,28 +32,33 @@ Morrisville, NC
 Purpose: 
 - Product Communication/ Diagnostics 
 - Product Acceptance Testing
-- AMI Network Management
+- Automated Meter Infrastructure(AMI) Network Management
+- Field maintenance solutions
+- First-Article manufacturing acceptance testing
 
 Technologies Used:
-- WPF  
+- WPF, SQLite configurations
+- Serial/Radio communications for standardized messaging
 
 ```
 ### iConfig 2
 ```
 Purpose: 
-- Customer configuration
+- Customer configuration for on-site/remote Sales reps
 - Product Ordering / Factory Configuration 
-- On-Air reconfiguration
+- Remote reconfiguration/field maintenance solutions
 
 Technologies Used:
-- WPF
+- WPF, T4 Templating->HTML-> PDF for standardized configuration reports
+- Core Library for data types/business rules
 ```
 
 ### Core Library
 ```
 Purpose: 
-- Uniting tool sets / deprecating legacy toolsets
+- Unifying tool sets / deprecating legacy toolsets
 - Unifying product message definitions to modern technology
+- Standardizing datatypes across disjointed product lines
 
 C#  .NET Framework 4.6
 ```
