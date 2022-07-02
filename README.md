@@ -8,10 +8,13 @@ Austin, TX
 ### StreetSmart Edge
 ```
 Purpose:
- - Highly technical analysis/purchasing solution for institutional traders and retail investors
+ - Highly technical analysis/purchasing solution
+ - User base: >100k institutional traders and retail investors
 
 Role:
-- Individual contributor, implementing features/maintenance for user base > 100k, handling production issues, deployments
+- Individual contributor, implementing features/maintenance
+- Handling production issues, deployments
+- Prioritizing field issues with Service dept
 
 Projects:
 - Nasdaq TotalView Enrollment
