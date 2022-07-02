@@ -1,14 +1,11 @@
 # Jeff Byrd
 
-## Charles Schwab
-Senior Software Developer
-2021-Current
-Austin, TX
-
+## Charles Schwab - Austin, TX
+#### Senior Software Developer, Trade Experience Technology (2021-Current)
 ### StreetSmart Edge
 ```
 Purpose:
- - Highly technical analysis/purchasing solution
+ - Advanced stock analysis/purchasing software
  - User base: >100k institutional traders and retail investors
 
 Role:
@@ -18,26 +15,26 @@ Role:
 - Migrating legacy WCF services to cloud-hosted REST APIs
 
 Projects:
-- Nasdaq TotalView Enrollment
+- Nasdaq Level-II Subscription migration
+- PSR/Fundamental Migration
 
 Technologies Used:
-- WPF/.NET, Atlassian suite for project tracking/management/ CI-CD
+- WPF/.NET, Atlassian suite for project tracking/management/ CI-CD/Pull-Requests
 - Postman for backend REST API prototyping
 ```
-## Sensus USA
 
-Senior/Lead Software Developer, Eng Tools
-2017-2021
-Morrisville, NC
-
+## Sensus USA - Morrisville, NC
+#### Senior/Lead Software Developer, Eng Tools (2017-2021)
 ### Spotlight
 ```
 Purpose: 
-- Product Communication/ Diagnostics 
-- Product Acceptance Testing
+- Radio Communication/ Diagnostics 
+- Electric product Acceptance Testing
 - Automated Meter Infrastructure(AMI) Network Management
 - Field maintenance solutions
 - First-Article manufacturing acceptance testing
+- ANSI C12.18/C12.19 Standard communication/reporting
+- User base ~ 400 internal / 1,000 external
 
 Technologies Used:
 - WPF, SQLite configurations
@@ -50,9 +47,11 @@ Purpose:
 - Customer configuration for on-site/remote Sales reps
 - Product Ordering / Factory Configuration 
 - Remote reconfiguration/field maintenance solutions
+- User base ~ 100 internal/ 500 external
 
 Technologies Used:
-- WPF, T4 Templating->HTML-> PDF for standardized configuration reports
+- WPF, XML configurations
+- T4 Templating-> HTML-> PDF for standardized configuration reports
 - Core Library for data types/business rules
 ```
 
@@ -60,25 +59,56 @@ Technologies Used:
 ```
 Purpose: 
 - Unifying tool sets / deprecating legacy toolsets
-- Unifying product message definitions to modern technology
+- Refreshing product message definitions to a modern software platform
 - Standardizing datatypes across disjointed product lines
+- AES Encryption schemes, compressions
 
-C#  .NET Framework 4.6
+C#  .NET Framework 4.6.2, MS Test , 90% test coverage
 ```
-
-Automation Design Engineer 
-2014-2017
 
 ### SmartWare Automation
+#### Automation Design Engineer (2014-2017)
 ```
 Purpose:
+- Automation framework to accelerate test coverage, testcase "first pass" (TCFP), regression
+- Drag-Drop logical flow (~LabView, but with radio tech)
 - Enabling ad-hoc automation of various product-lines 
+- User Base ~400
 
-WinForms / NUnit / Jenkins / Atlassian Crucible
+Role:
+- Electric Productline SME
+- Team Lead, involved in QA test-plans and facilitating automation technology coverage
+
+Tools:
+- WinForms (.NET 4.0 - 4.61) / NUnit / Jenkins / Atlassian Crucible
+
+Projects/Accomplishments:
+- Various Quality initiatives (See: LeanSixSigma CI)
+- Introduced Selenium + Appium Platform/mobile-testing support
+* Enabled web, mobile, and serial communication testing within the same framework for users
+
+- Electric productline support (GE, Aclara, Elster/Honeywell, Landis & Gyr, Sensus)
+- ANSI C12.18/C12.19 Standard implementations
+- Created an algorithm to sweep 65,000 unique configurations 
+-     Enabled efforts which otherwise be infeasible (1.4 ManYears) became an 11d automated effort on a remote VM
 
 ``` 
-### Lean Six Sigma Continuous Improvements
+### Lean Six Sigma Continuous Improvement Initiatives
 
+#### Standardizing, Extending, Automating Load-Profile Comparisons
+Problem: Interval billing testing was time-consuming and manual
+Solution: Automated data collection/comparison, introduced more independent data sources, automated reporting.
 
+Reduced 7d manual test effort to 1h automated test effort. Significant morale boost.
 
+#### Raspberry-Pi Remote Testing "Device-Cloud"
+VirtualHere (Remote Linux USB) + Raspberry Pi USB-Hubs for building out remote-operation of serial devices,
+accessible over the VPN, enabling multiple testbed suites, remote sales demo
 
+#### Range-reduction for water-meter Comm devices
+* Problem: Single-channel radios were overlapping common frequencies, requiring all 
+testing to be scheduled and non-overlapping between 5-7 testers, single-tests at a time. 
+
+* Solution: Antenna shielding 
+* Effective range reduced from 400ft to 1ft radius, unblocking all testers (and allowing each individual to multiple instances)
+Data-driven approach was measuring effective radius with CommTool and endpoint.
