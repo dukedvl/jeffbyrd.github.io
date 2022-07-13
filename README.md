@@ -21,6 +21,7 @@ Projects:
 Technologies Used:
 - WPF/.NET, Atlassian suite for project tracking/management/ CI-CD/Pull-Requests
 - Postman for backend REST API prototyping
+- Splunk for log aggregation/tracing calls
 ```
 
 ## Sensus USA - Morrisville, NC
