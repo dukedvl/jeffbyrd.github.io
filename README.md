@@ -13,7 +13,7 @@ Role:
 - Individual contributor, implementing features/maintenance
 - Handling production issues, deployments, security scans
 - Prioritizing call-driving field issues with Service dept
-- Migrating legacy services to cloud-hosted REST APIs
+- Migrating calls to legacy services to cloud-hosted REST APIs
 - Maintaining accessory projects for updated security requirements/framework support
 
 Projects:
