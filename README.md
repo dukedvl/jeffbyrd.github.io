@@ -14,10 +14,11 @@ Role:
 - Handling production issues, deployments, security scans
 - Prioritizing call-driving field issues with Service dept
 - Migrating legacy services to cloud-hosted REST APIs
+- Maintaining accessory projects for updated security requirements/framework support
 
 Projects:
-- Nasdaq Level-II Subscription migration
-- PSR/Fundamental Migration
+- Nasdaq Level-II Quote Subscription, PSR/Fundamental data service migrations
+- Canary build production-preview process (Downloadable, out-of-network verification)
 - TDA/"Schwab Green" local user setting migrations
 - Schwab.com Watchlist accessibility labels
 
@@ -78,7 +79,7 @@ Purpose:
 - Automation framework to accelerate test coverage, testcase "first pass" (TCFP), regression
 - Drag-Drop logical flow (~LabView, but with radio tech)
 - Enabling ad-hoc automation of various product-lines 
-- User Base ~400
+- User Base: Specialized ~10, Overall ~100
 
 Role:
 - Electric Productline SME
@@ -90,30 +91,33 @@ Tools:
 Projects/Accomplishments:
 - Various Quality initiatives (See: LeanSixSigma CI)
 - Introduced Selenium + Appium Platform/mobile-testing support
-* Enabled web, mobile, and serial communication testing within the same framework for users
+- Enabled web, mobile, radio, and serial communication testing within the same application for users
 
 - Electric productline support (GE, Aclara, Elster/Honeywell, Landis & Gyr, Sensus)
 - ANSI C12.18/C12.19 Standard implementations
-- Created an algorithm to sweep 65,000 unique configurations 
--     Enabled efforts which otherwise be infeasible (1.4 ManYears) became an 11d automated effort on a remote VM
+- Created an algorithm to sweep 65,000 unique configurations of channel reporting 
+-     Enabled System Test efforts which otherwise be infeasible (4.1 ManYears) became an 11d automated effort on a remote VM
 
 ``` 
 ### Lean Six Sigma Continuous Improvement Initiatives
-
 #### Standardizing, Extending, Automating Load-Profile Comparisons
+```
 Problem: Interval billing testing was time-consuming and manual
 Solution: Automated data collection/comparison, introduced more independent data sources, automated reporting.
 
-Reduced 7d manual test effort to 1h automated test effort. Significant morale boost.
-
+Reduced 7d manual test effort to 1h automated test effort. Significant morale boost, empowered engineers to parallelize and expand coverage
+```
 #### Raspberry-Pi Remote Testing "Device-Cloud"
+```
 VirtualHere (Remote Linux USB) + Raspberry Pi USB-Hubs for building out remote-operation of serial devices,
 accessible over the VPN, enabling multiple testbed suites, remote sales demo
-
+```
 #### Range-reduction for water-meter Comm devices
-* Problem: Single-channel radios were overlapping common frequencies, requiring all 
+```
+Problem: Single-channel radios were overlapping common frequencies, requiring all 
 testing to be scheduled and non-overlapping between 5-7 testers, single-tests at a time. 
 
-* Solution: Antenna shielding 
-* Effective range reduced from 400ft to 1ft radius, unblocking all testers (and allowing each individual to multiple instances)
+Solution: Antenna shielding 
+- Effective range reduced from 400ft to 1ft radius, unblocking all testers (and allowing each individual to multiple instances)
 Data-driven approach was measuring effective radius with CommTool and endpoint.
+```
