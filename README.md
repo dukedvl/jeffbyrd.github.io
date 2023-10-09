@@ -61,7 +61,7 @@ Technologies Used:
 - Core Library for data types/business rules
 ```
 
-### Core Library
+### SensusCore (Messaging/Util) Library
 ```
 Purpose: 
 - Unifying tool sets / deprecating legacy toolsets
