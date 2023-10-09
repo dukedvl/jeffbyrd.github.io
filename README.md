@@ -11,18 +11,21 @@ Purpose:
 
 Role:
 - Individual contributor, implementing features/maintenance
-- Handling production issues, deployments
+- Handling production issues, deployments, security scans
 - Prioritizing call-driving field issues with Service dept
-- Migrating legacy WCF services to cloud-hosted REST APIs
+- Migrating legacy services to cloud-hosted REST APIs
 
 Projects:
 - Nasdaq Level-II Subscription migration
 - PSR/Fundamental Migration
+- TDA/"Schwab Green" local user setting migrations
+- Schwab.com Watchlist accessibility labels
 
 Technologies Used:
 - WPF/.NET, Atlassian suite for project tracking/management/ CI-CD/Pull-Requests
 - Postman for backend REST API prototyping
 - Splunk for log aggregation/tracing calls
+- Stencil.js/React/Jest on Schwab.com Watchlist ventures
 ```
 
 ## Sensus USA - Morrisville, NC
