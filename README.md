@@ -127,12 +127,13 @@ Data-driven approach was measuring effective radius with CommTool and endpoint.
 #### HouseHub Weather SPA
 ```
 Purpose:
- To create a smart "Home Page" for local weather real-time data/forecasts through Wunderground/Tomorrow.io, and other conveniences for the LAN
+- To create a smart "Home Page" for LAN
+- Local weather real-time data/forecasts through Wunderground/Tomorrow.io
 
 Tech used:
 - Rust(Nickel.rs)/Postgres backend API
 - React.js front end (with Razor/Vue.js ports created)
-- Container hosted locally on Docker server
+- Both front/back-end Containers hosted locally on Docker server
 ```
 
 #### Discord Channel Bot
