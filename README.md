@@ -132,6 +132,7 @@ Purpose:
 Tech used:
 - Rust(Nickel.rs)/Postgres backend API
 - React.js front end (with Razor/Vue.js ports created)
+- Container hosted locally on Docker server
 ```
 
 #### Discord Channel Bot
@@ -142,6 +143,7 @@ Purpose:
 
 Tech Used:
 - .NET 6, Postgres, Dapper
+- Container hosted locally on Docker server
 ```
 
 #### Roku "Smart TV" Wake-up Alarm
