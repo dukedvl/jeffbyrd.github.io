@@ -3,18 +3,19 @@
 
 ## Charles Schwab - Austin, TX
 #### Senior Software Developer, Trade Experience Technology (2021-Current)
-### StreetSmart Edge
 ```
-Purpose:
- - Advanced stock analysis/purchasing software
- - User base: >100k institutional traders and retail investors
-
 Role:
 - Individual contributor, implementing features/maintenance
 - Handling production issues, deployments, security scans
 - Prioritizing call-driving field issues with Service dept
 - Migrating calls to legacy services to cloud-hosted REST APIs
 - Maintaining accessory projects for updated security requirements/framework support
+```
+### StreetSmart Edge
+```
+Purpose:
+ - Advanced stock analysis/purchasing software
+ - User base: >100k institutional traders and retail investors
 
 Projects:
 - Nasdaq Level-II Quote Subscription, PSR/Fundamental data service migrations
@@ -23,7 +24,7 @@ Projects:
 - Schwab.com Watchlist accessibility labels
 
 Technologies Used:
-- WPF/.NET, Atlassian suite for project tracking/management/ CI-CD/Pull-Requests
+- WPF/.NET 6, Atlassian suite for project tracking/management/ CI-CD/Pull-Requests
 - Postman for backend REST API prototyping
 - Splunk for log aggregation/tracing calls
 - Stencil.js/React/Jest on Schwab.com Watchlist ventures
@@ -43,8 +44,8 @@ Purpose:
 - User base ~ 400 internal / 1,000 external
 
 Technologies Used:
-- WPF, SQLite configurations
-- Serial/Radio communications for standardized messaging
+- .NET Core, WPF, Telerik UI, SQLite, Dapper
+- Serial/Radio communications via proprietary binary protocol over UART
 
 ```
 ### iConfig 2
@@ -120,4 +121,34 @@ testing to be scheduled and non-overlapping between 5-7 testers, single-tests at
 Solution: Antenna shielding 
 - Effective range reduced from 400ft to 1ft radius, unblocking all testers (and allowing each individual to multiple instances)
 Data-driven approach was measuring effective radius with CommTool and endpoint.
+```
+
+### Hobby Projects
+#### HouseHub Weather SPA
+```
+Purpose:
+ To create a smart "Home Page" for local weather real-time data/forecasts through Wunderground/Tomorrow.io, and other conveniences for the LAN
+
+Tech used:
+- Rust(Nickel.rs)/Postgres backend API
+- React.js front end (with Razor/Vue.js ports created)
+```
+
+#### Discord Channel Bot
+```
+Purpose:
+- Store/schedule reminders (per user)
+- Store/replay quotes, funny emoji responses
+
+Tech Used:
+- .NET 6, Postgres, Dapper
+```
+
+#### Roku "Smart TV" Wake-up Alarm
+```
+Purpose:
+- Launch local news/weather at a pre-configured time
+
+Tech Used:
+- Roku Python3 library, Raspberry Pi/crontab scheduling)
 ```
